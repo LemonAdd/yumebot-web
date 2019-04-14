@@ -1,0 +1,32 @@
+[29-Dec-2018 11:42:55 Europe/Paris] PHP Warning:  Use of undefined constant e_all - assumed 'e_all' (this will throw an Error in a future version of PHP) in /home/yumenetwym/www/get_user.php on line 10
+[29-Dec-2018 11:42:59 Europe/Paris] PHP Warning:  Use of undefined constant e_all - assumed 'e_all' (this will throw an Error in a future version of PHP) in /home/yumenetwym/www/get_user.php on line 10
+[29-Dec-2018 11:43:53 Europe/Paris] PHP Warning:  Illegal string offset 'owner' in /home/yumenetwym/www/get_user.php on line 67
+[29-Dec-2018 11:43:53 Europe/Paris] PHP Warning:  Illegal string offset 'id' in /home/yumenetwym/www/get_user.php on line 68
+[29-Dec-2018 11:43:53 Europe/Paris] PHP Warning:  Illegal string offset 'name' in /home/yumenetwym/www/get_user.php on line 68
+[29-Dec-2018 11:44:07 Europe/Paris] PHP Fatal error:  Uncaught Requests_Exception: cURL error 28: Operation timed out after 10001 milliseconds with 0 bytes received in /home/yumenetwym/www/library/Requests/Transport/cURL.php:422
+Stack trace:
+#0 /home/yumenetwym/www/library/Requests/Transport/cURL.php(177): Requests_Transport_cURL->process_response('', Array)
+#1 /home/yumenetwym/www/library/Requests.php(379): Requests_Transport_cURL->request('http://91.134.1...', Array, NULL, Array)
+#2 /home/yumenetwym/www/library/Requests.php(231): Requests::request('http://91.134.1...', Array, NULL, 'GET', Array)
+#3 /home/yumenetwym/www/get_user.php(79): Requests::get('http://91.134.1...', Array, Array)
+#4 {main}
+  thrown in /home/yumenetwym/www/library/Requests/Transport/cURL.php on line 422
+[29-Dec-2018 11:47:55 Europe/Paris] PHP Warning:  Illegal string offset 'owner' in /home/yumenetwym/www/get_user.php on line 67
+[29-Dec-2018 11:47:55 Europe/Paris] PHP Warning:  Illegal string offset 'id' in /home/yumenetwym/www/get_user.php on line 68
+[29-Dec-2018 11:47:55 Europe/Paris] PHP Warning:  Illegal string offset 'name' in /home/yumenetwym/www/get_user.php on line 68
+[29-Dec-2018 11:49:11 Europe/Paris] PHP Fatal error:  Uncaught Requests_Exception: cURL error 28: Operation timed out after 10001 milliseconds with 0 bytes received in /home/yumenetwym/www/library/Requests/Transport/cURL.php:422
+Stack trace:
+#0 /home/yumenetwym/www/library/Requests/Transport/cURL.php(177): Requests_Transport_cURL->process_response('', Array)
+#1 /home/yumenetwym/www/library/Requests.php(379): Requests_Transport_cURL->request('http://91.134.1...', Array, NULL, Array)
+#2 /home/yumenetwym/www/library/Requests.php(231): Requests::request('http://91.134.1...', Array, NULL, 'GET', Array)
+#3 /home/yumenetwym/www/get_user.php(79): Requests::get('http://91.134.1...', Array, Array)
+#4 {main}
+  thrown in /home/yumenetwym/www/library/Requests/Transport/cURL.php on line 422
+[29-Dec-2018 12:56:22 Europe/Paris] PHP Fatal error:  Uncaught Requests_Exception: cURL error 28: Operation timed out after 10000 milliseconds with 0 bytes received in /home/yumenetwym/www/library/Requests/Transport/cURL.php:422
+Stack trace:
+#0 /home/yumenetwym/www/library/Requests/Transport/cURL.php(177): Requests_Transport_cURL->process_response('', Array)
+#1 /home/yumenetwym/www/library/Requests.php(379): Requests_Transport_cURL->request('http://91.134.1...', Array, NULL, Array)
+#2 /home/yumenetwym/www/library/Requests.php(231): Requests::request('http://91.134.1...', Array, NULL, 'GET', Array)
+#3 /home/yumenetwym/www/get_user.php(79): Requests::get('http://91.134.1...', Array, Array)
+#4 {main}
+  thrown in /home/yumenetwym/www/library/Requests/Transport/cURL.php on line 422

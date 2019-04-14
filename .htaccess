@@ -1,0 +1,2 @@
+ErrorDocument 404 https://www.yumenetwork.fr/404.php
+Options All -Indexes
